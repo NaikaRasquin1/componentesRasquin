@@ -1,0 +1,10 @@
+aside {
+    height: calc(100vh - 60px);
+    width: var(--sidebar-width);
+    background-color: blueviolet;
+    position: fixed;
+}
+
+aside p {
+    margin: 0;
+}
