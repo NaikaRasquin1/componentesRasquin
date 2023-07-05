@@ -7,10 +7,12 @@ import { HeaderComponent } from './header/header.component';
 import { SidebarComponent } from './sidebar/sidebar.component';
 import { MainWrapperComponent } from './main-wrapper/main-wrapper.component';
 import { MyPComponent } from './components/my-p/my-p.component';
+import { Nombres } from './nombres/nombres.component';
 
 @NgModule({
   declarations: [
     AppComponent,
+    Nombres,
     HeaderComponent,
     SidebarComponent,
     MainWrapperComponent,
