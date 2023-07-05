@@ -3,7 +3,10 @@
 <button (click)="anadirNombre(txtNombre.value)" >Insertar nombre</button>
 
 <ul>
-    <div *ngFor="let nom of nombres">
-        <li>{{nom}}</li>
-    </div>
+    
+        <li *ngFor="let nom of nombres">
+            {{nom}}
+
+        </li>
+    
 </ul>
